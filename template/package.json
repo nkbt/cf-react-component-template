@@ -1,61 +1,39 @@
 {
   "name": "{{package.name}}",
+  "version": "0.0.0",
   "description": "{{package.description}}",
-  "version": "1.0.0",
-  "main": "build/index.js",
+  "main": "lib/index.js",
+  "config": {
+    "component": "{{package.global}}"
+  },
   "scripts": {
-    "init": "rimraf .validate.json && rimraf .jshintrc",
-    "clean": "rimraf build",
-    "lint": "eslint source test",
-    "prebuild": "npm run clean",
-    "build": "npm run build:webpack && npm run build:min && npm run build:doc",
-    "build:webpack": "node scripts/buildWebpack.js",
-    "build:min": "node scripts/buildProduction.js",
-    "build:doc": "doctoc --github --title \"## Contents\" ./",
-    "start": "webpack --watch",
-    "test": "babel-node test/index.js",
-    "cov": "npm run cov:clean && npm run cov:generate",
-    "cov:clean": "rimraf coverage",
-    "cov:generate": "babel-node node_modules/.bin/isparta cover --report text --report html test/index.js",
-    "prepublish": "npm run build",
-    "validate": "npm run lint && npm run build && npm test",
-    "validate-dev": "npm run lint && npm run build && npm test | faucet",
-    "audit": "nsp package",
-    "deps": "npm run deps:missing && npm run deps:extra",
-    "deps:missing": "dependency-check package.json",
-    "deps:extra": "dependency-check package.json --extra --no-dev --ignore",
-    "precheck": "npm run validate",
-    "check": "npm run audit && npm run deps && npm outdated --depth 0"
+    "start": "p-s --config node_modules/react-component-template/package-scripts.js -s",
+    "test": "npm start test",
+    "precommit": "npm start precommit",
+    "prepush": "npm start prepush",
+    "postversion": "npm start postversion",
+    "prepublish": "npm start prepublish"
   },
-  "pre-commit": [
-    "lint"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/{{user.github}}/{{package.name}}.git"
+  },
+  "keywords": [
+    "component",
+    "react-component",
+    "react"
   ],
-  "devDependencies": {
-    "babel": "^5.8.21",
-    "babel-eslint": "^4.0.5",
-    "babel-loader": "^5.3.2",
-    "babel-plugin-object-assign": "^1.2.1",
-    "blue-tape": "^0.1.10",
-    "dependency-check": "^2.5.0",
-    "doctoc": "^0.14.2",
-    "eslint": "^1.1.0",
-    "eslint-loader": "^1.0.0",
-    "faucet": "0.0.1",
-    "isparta": "^3.0.3",
-    "node-libs-browser": "^0.5.2",
-    "nsp": "^1.0.3",
-    "precommit-hook": "^3.0.0",
-    "rimraf": "^2.4.2",
-    "webpack": "^1.11.0"
-  },
   "author": "{{user.name}} <{{user.email}}>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/{{user.github}}/{{package.name}}/issues"
   },
   "homepage": "https://github.com/{{user.github}}/{{package.name}}",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/{{user.github}}/{{package.name}}.git"
+  "peerDependencies": {
+    "react": "^0.14 || ^15"
+  },
+  "devDependencies": {
+    "p-s": "0.7.1",
+    "react-component-template": "0.1.1"
   }
 }

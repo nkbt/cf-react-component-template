@@ -1,0 +1,30 @@
+{
+  "name": "{{package.name}}",
+  "version": "0.0.0",
+  "description": "{{package.description}}",
+  "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/{{user.github}}/{{package.name}}.git"
+  },
+  "keywords": [
+    "component",
+    "react-component",
+    "react"
+  ],
+  "authors": [
+    "{{user.name}} <{{user.email}}>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/{{user.github}}/{{package.name}}",
+  "dependencies": {
+    "react": "^0.14 || ^15"
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
