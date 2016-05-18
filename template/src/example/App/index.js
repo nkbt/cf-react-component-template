@@ -1,5 +1,5 @@
 import React from 'react';
-import {{package.global}} from '../../Component';
+import {{curly.left}}{{package.global}}{{curly.right}} from '../..';
 import css from './App.css';
 
 
