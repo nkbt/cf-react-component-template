@@ -1,5 +1,5 @@
 import test from 'tape';
-import {{package.global}} from '../src/Component';
+import {{curly.left}}{{package.global}}{{curly.right}} from '../src/Component';
 
 
 test('{{package.global}}', t => {
