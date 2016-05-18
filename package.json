@@ -1,6 +1,6 @@
 {
   "name": "cf-react-component-template",
-  "version": "0.1.0",
+  "version": "0.0.0",
   "description": "React component template scaffold",
   "main": "build/cli.js",
   "bin": {
