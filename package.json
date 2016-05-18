@@ -1,10 +1,10 @@
 {
-  "name": "cf-package",
+  "name": "cf-react-component-template",
   "version": "1.0.0",
-  "description": "Cloverfield Package Scaffold",
+  "description": "React component template scaffold",
   "main": "build/cli.js",
   "bin": {
-    "cf-package": "build/cli.js"
+    "cf-react-component-template": "build/cli.js"
   },
   "scripts": {
     "lint": "eslint --cache .",
@@ -21,20 +21,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:cloverfield-tools/cf-package.git"
+    "url": "git@github.com:nkbt/cf-react-component-template.git"
   },
   "keywords": [
     "cloverfield",
     "scaffold",
     "cloverfield-scaffold",
-    "package"
+    "react-component-template"
   ],
   "author": "Nik Butenko <nik@butenko.me>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/cloverfield-tools/cf-package/issues"
+    "url": "https://github.com/nkbt/cf-react-component-template/issues"
   },
-  "homepage": "https://github.com/cloverfield-tools/cf-package",
+  "homepage": "https://github.com/nkbt/cf-react-component-template",
   "dependencies": {
     "babel-cli": "6.9.0",
     "babel-core": "6.9.0",
