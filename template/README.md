@@ -13,7 +13,6 @@ React component-wrapper to swap one element with another and back, useful to sho
 ## Installation
 
 ### NPM
-
 ```sh
 npm install --save react {{package.name}}
 ```
@@ -24,22 +23,6 @@ Don't forget to manually install peer dependencies (`react`) if you use npm@3.
 ### Bower:
 ```sh
 bower install --save https://npmcdn.com/{{package.name}}/bower.zip
-```
-
-or in `bower.json`
-
-```json
-{
-  "dependencies": {
-    "{{package.name}}": "https://npmcdn.com/{{package.name}}/bower.zip"
-  }
-}
-```
-
-then include as
-```html
-<script src="bower_components/react/react.js"></script>
-<script src="bower_components/{{package.name}}/build/{{package.name}}.js"></script>
 ```
 
 
