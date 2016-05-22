@@ -23,7 +23,7 @@ Don't forget to manually install peer dependencies (`react`) if you use npm@3.
 
 ### Bower:
 ```sh
-bower install --save https://npmcdn.com/{{package.name}}/build/{{package.name}}.js
+bower install --save https://npmcdn.com/{{package.name}}/bower.zip
 ```
 
 or in `bower.json`
@@ -31,7 +31,7 @@ or in `bower.json`
 ```json
 {
   "dependencies": {
-    "react-motion": "https://npmcdn.com/{{package.name}}/bower.zip"
+    "{{package.name}}": "https://npmcdn.com/{{package.name}}/bower.zip"
   }
 }
 ```

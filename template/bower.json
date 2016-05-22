@@ -2,7 +2,12 @@
   "name": "{{package.name}}",
   "version": "0.0.0",
   "description": "{{package.description}}",
-  "main": "lib/index.js",
+  "main": [
+    "build/{{package.name}}.js",
+    "build/{{package.name}}.js.map",
+    "build/{{package.name}}.min.js",
+    "build/{{package.name}}.min.js.map"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/{{user.github}}/{{package.name}}.git"
