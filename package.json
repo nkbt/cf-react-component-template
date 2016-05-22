@@ -22,7 +22,8 @@
     "postbuild": "node build/zip",
     "postinstall": "node build/unzip",
     "prepublish": "npm run build",
-    "precommit": "npm run lint"
+    "precommit": "npm run lint",
+    "postversion": "git push --follow-tags"
   },
   "repository": {
     "type": "git",
