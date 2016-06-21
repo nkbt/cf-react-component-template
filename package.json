@@ -45,7 +45,7 @@
     "babel-cli": "6.10.1",
     "babel-core": "6.9.1",
     "babel-polyfill": "6.9.1",
-    "glob": "7.0.4",
+    "glob": "7.0.5",
     "handlebars": "4.0.5",
     "mkdirp": "0.5.1",
     "nomnom": "1.8.1",
