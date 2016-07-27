@@ -7,7 +7,9 @@
     "cf-react-component-template": "build/cli.js"
   },
   "files": [
-    "build/"
+    "build/",
+    "install.js",
+    "README.md"
   ],
   "scripts": {
     "lint": "eslint --cache .",
