@@ -44,7 +44,7 @@
   },
   "homepage": "https://github.com/nkbt/cf-react-component-template",
   "dependencies": {
-    "babel-cli": "6.10.1",
+    "babel-cli": "6.11.4",
     "babel-core": "6.11.4",
     "babel-polyfill": "6.9.1",
     "glob": "7.0.5",
@@ -56,15 +56,15 @@
   },
   "devDependencies": {
     "archiver": "1.0.0",
-    "babel-eslint": "6.1.0",
+    "babel-eslint": "6.1.2",
     "babel-istanbul": "0.11.0",
     "babel-preset-es2015-node6": "0.2.0",
     "blue-tape": "0.2.0",
     "eslint": "3.1.1",
-    "husky": "0.11.4",
-    "nsp": "2.5.0",
-    "rimraf": "2.5.3",
-    "sinon": "1.17.4",
+    "husky": "0.11.6",
+    "nsp": "2.6.1",
+    "rimraf": "2.5.4",
+    "sinon": "1.17.5",
     "tap-xunit": "1.4.0"
   }
 }
