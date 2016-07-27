@@ -20,7 +20,7 @@
     "prebuild": "rimraf build",
     "build": "babel lib --out-dir build",
     "postbuild": "node build/zip",
-    "postinstall": "node build/unzip",
+    "postinstall": "node install",
     "prepublish": "npm run build",
     "precommit": "npm run lint",
     "postversion": "git push --follow-tags"
