@@ -58,7 +58,7 @@
     "archiver": "1.0.1",
     "babel-eslint": "6.1.2",
     "babel-istanbul": "0.11.0",
-    "babel-preset-es2015-node6": "0.2.0",
+    "babel-preset-es2015-node6": "0.3.0",
     "blue-tape": "0.2.0",
     "eslint": "3.2.2",
     "husky": "0.11.6",
