@@ -8,7 +8,7 @@
 [![Dependencies](https://img.shields.io/david/{{user.github}}/{{package.name}}.svg?style=flat-square)](https://david-dm.org/{{user.github}}/{{package.name}})
 [![Dev Dependencies](https://img.shields.io/david/dev/{{user.github}}/{{package.name}}.svg?style=flat-square)](https://david-dm.org/{{user.github}}/{{package.name}}#info=devDependencies)
 
-React component-wrapper to swap one element with another and back, useful to show/hide popups, expand/collapse elements, various toggles, etc.
+{{package.description}}
 
 ## Installation
 
