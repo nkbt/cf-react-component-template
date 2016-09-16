@@ -9,6 +9,7 @@
   "scripts": {
     "start": "react-component-template",
     "test": "npm start test",
+    "template": "cf-react-component-template",
     "precommit": "npm start precommit",
     "prepush": "npm start prepush",
     "postversion": "npm start postversion",
@@ -33,6 +34,7 @@
     "react": "^0.14 || ^15"
   },
   "devDependencies": {
-    "react-component-template": "0.1.7"
+    "react-component-template": "0.1.7",
+    "cf-react-component-template": "0.1.7"
   }
 }
