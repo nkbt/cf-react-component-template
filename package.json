@@ -4,6 +4,7 @@
   "description": "React component template scaffold",
   "main": "build/cli.js",
   "bin": {
+    "react-template": "build/cli.js",
     "cf-react-component-template": "build/cli.js"
   },
   "files": [
@@ -12,6 +13,7 @@
     "README.md"
   ],
   "scripts": {
+    "start": "babel-node lib/cli",
     "lint": "eslint .",
     "test": "babel-node node_modules/.bin/blue-tape ./test/**/*-test.js",
     "precov": "rimraf coverage",
@@ -49,6 +51,7 @@
     "babel-polyfill": "6.13.0",
     "glob": "7.0.6",
     "handlebars": "4.0.5",
+    "hosted-git-info": "2.1.5",
     "mkdirp": "0.5.1",
     "nomnom": "1.8.1",
     "prompt": "1.0.0",
