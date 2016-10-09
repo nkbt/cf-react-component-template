@@ -63,7 +63,7 @@
     "babel-istanbul": "0.11.0",
     "babel-preset-es2015-node6": "0.3.0",
     "blue-tape": "1.0.0",
-    "eslint": "3.5.0",
+    "eslint": "3.7.0",
     "husky": "0.11.7",
     "nsp": "2.6.1",
     "rimraf": "2.5.4",
