@@ -64,7 +64,7 @@
     "babel-preset-es2015-node6": "0.3.0",
     "blue-tape": "1.0.0",
     "eslint": "3.5.0",
-    "husky": "0.11.8",
+    "husky": "0.11.9",
     "nsp": "2.6.1",
     "rimraf": "2.5.4",
     "sinon": "1.17.6",
