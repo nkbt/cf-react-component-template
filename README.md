@@ -1,4 +1,4 @@
-# cf-react-component-template [![npm](https://img.shields.io/npm/v/cf-react-component-template.svg?style=flat-square)](https://www.npmjs.com/package/cf-react-component-template)
+# cf-react-component-template ![DEPRECATED](https://img.shields.io/badge/status-DEPRECATED-red.svg?style=flat-square) [![npm](https://img.shields.io/npm/v/cf-react-component-template.svg?style=flat-square)](https://www.npmjs.com/package/cf-react-component-template)
 
 [![Gitter](https://img.shields.io/gitter/room/nkbt/help.svg?style=flat-square)](https://gitter.im/nkbt/help)
 
