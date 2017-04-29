@@ -50,7 +50,7 @@
     "babel-core": "6.20.0",
     "babel-polyfill": "6.16.0",
     "glob": "7.1.1",
-    "handlebars": "4.0.6",
+    "handlebars": "4.0.7",
     "hosted-git-info": "2.1.5",
     "mkdirp": "0.5.1",
     "nomnom": "1.8.1",
