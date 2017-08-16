@@ -48,7 +48,7 @@
   "dependencies": {
     "babel-cli": "6.18.0",
     "babel-core": "6.20.0",
-    "babel-polyfill": "6.16.0",
+    "babel-polyfill": "6.26.0",
     "glob": "7.1.1",
     "handlebars": "4.0.6",
     "hosted-git-info": "2.1.5",
